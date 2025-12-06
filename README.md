@@ -1,2 +1,2 @@
 # Python - Udemy
-Curso Completo de Python do Básico ao Avançado + RPA + Projetos Reais com Banco de Dados
+Curso Completo de Python do Básico ao Avançado.
