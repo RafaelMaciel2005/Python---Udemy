@@ -1,8 +1,8 @@
 class conta_bancaria:
     def __init__(self, saldo):
+        
         self._saldo = 0.0
-        self.saldo = saldo
-
+    
     @property
     def saldo(self):
 
