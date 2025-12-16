@@ -13,7 +13,7 @@ notasAluno_DataFrame = opcoesPanda.DataFrame({
 notasAluno_DataFrame.loc[1, "Nota 2"] = 50
 
 notasAluno_DataFrame["Média"] = (notasAluno_DataFrame["Nota 1"] + notasAluno_DataFrame["Nota 2"] + notasAluno_DataFrame["Nota 3"] + notasAluno_DataFrame["Nota 4"]) / 4
-
+ 
 novaColunaFaltas = [2, 5, 3]
 
 notasAluno_DataFrame["Faltas"] = novaColunaFaltas
