@@ -5,6 +5,6 @@ loja1_DF = pd.read_excel(r"C:\Users\Rafael\Documents\Estudos\Python-Curso-Udemy\
 
 loja2_DF = pd.read_excel(r"C:\Users\Rafael\Documents\Estudos\Python-Curso-Udemy\Arquivos fonte de estudos\\Vendas_+INNER_JOIN_Loja2.xlsx")
 
-vendedoresAmbasLojas_DF = pd.merge(loja1_DF, loja2_DF, on = ["Vendedor"], how = "Inner")
+vendedoresAmbasLojas_DF = pd.merge(loja1_DF, loja2_DF, on = ["Vendedor"], how = "inner")
 
-display(loja1_DF)
+display(vendedoresAmbasLojas_DF)
